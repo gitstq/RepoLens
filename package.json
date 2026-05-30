@@ -1,0 +1,29 @@
+{
+  "name": "repolens",
+  "version": "1.0.0",
+  "description": "A lightweight Git repository multi-dimensional intelligent analysis engine",
+  "main": "dist/index.js",
+  "bin": {
+    "repolens": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "git",
+    "analysis",
+    "health",
+    "complexity",
+    "contributors",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^5.0.0"
+  }
+}
